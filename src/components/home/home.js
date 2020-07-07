@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'react-router-dom'
 import "./home.css"
 export default class home extends React.Component {
     render() {
@@ -9,9 +10,9 @@ export default class home extends React.Component {
                 <div class="container-fluid">
                     <div class="dibiz-responsive-menu">
                         <div class="logo">
-                            <a href="index-2.html">
+                            <Link to="/home">
                                 <img src={require("./../../assets/img/madio.png")} alt="logo"/>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -19,25 +20,25 @@ export default class home extends React.Component {
               <div class="dibiz-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index-2.html">
+                        <Link class="navbar-brand" to="index-2.html">
                             <img src={require("./../../assets/img/madio.png")} alt="logo"/>
-                        </a>
+                        </Link>
 
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                                <li class="nav-item"><Link to="/home" class="nav-link active">Home</Link></li>
                                 <li class="nav-item"><a href="#" class="nav-link">Services <i class='bx bx-chevron-down'></i></a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="services-1.html" class="nav-link">Digital Marketing</a></li>
+                                        <li class="nav-item"><Link to="/" class="nav-link">Digital Marketing</Link></li>
 
-                                        <li class="nav-item"><a href="services-2.html" class="nav-link">Web Developement</a></li>
+                                        <li class="nav-item"><Link to="/" class="nav-link">Web Developement</Link></li>
 
-                                        <li class="nav-item"><a href="services-3.html" class="nav-link">Mobile Application</a></li>
+                                        <li class="nav-item"><Link to="/" class="nav-link">Mobile Application</Link></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                                <li class="nav-item"><Link to="/" class="nav-link">Pricing</Link></li>
+                                <li class="nav-item"><Link to="/" class="nav-link">About Us</Link></li>
+                                <li class="nav-item"><Link to="/contact" class="nav-link">Contact</Link></li>
                             </ul>
                         </div>
                     </nav>
@@ -56,8 +57,8 @@ export default class home extends React.Component {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                                     <div class="btn-box">
                                         <div class="d-flex align-items-center">
-                                            <a href="contact.html" class="default-btn">Get Started</a>
-                                            <a href="https://www.youtube.com/watch?v=Y5KCDWi7h9o" class="video-btn popup-youtube"><i class="flaticon-play-button"></i> Watch Video</a>
+                                            <Link to="contact" class="default-btn">Get Started</Link>
+                                            <a href="https://www.youtube.com/watch?v=Y5KCDWi7h9o" target="blank" class="video-btn popup-youtube"><i class="flaticon-play-button"></i> Watch Video</a>
                                         </div>
                                     </div>
                                 </div>

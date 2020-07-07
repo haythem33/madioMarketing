@@ -6,7 +6,8 @@ export default class router extends React.Component {
     render() {
         return (
          <Router>
-             <Route path="/" component={Home} />
+             <Route exact path="/" component={Home} />
+             <Route path="/home" component={Home} />
              <Route path="/contact" component={Contact} />
          </Router>
         )
