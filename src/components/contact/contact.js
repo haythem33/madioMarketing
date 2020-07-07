@@ -67,7 +67,7 @@ export default class contact extends React.Component {
                       </Link>
                     </li>
                     <li class="nav-item">
-                      <Link to="/" class="nav-link">
+                      <Link to="/about" class="nav-link">
                         About Us
                       </Link>
                     </li>
@@ -334,7 +334,7 @@ export default class contact extends React.Component {
                       <a href="index.html">Home</a>
                     </li>
                     <li>
-                      <a href="about-us-1.html">About</a>
+                      <Link to="/about">About</Link>
                     </li>
                     <li>
                       <a href="pricing.html">Pricing</a>
@@ -343,7 +343,7 @@ export default class contact extends React.Component {
                       <a href="portfolio-1.html">Portfolio</a>
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>

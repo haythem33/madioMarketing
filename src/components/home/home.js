@@ -37,7 +37,7 @@ export default class home extends React.Component {
                                     </ul>
                                 </li>
                                 <li class="nav-item"><Link to="/" class="nav-link">Pricing</Link></li>
-                                <li class="nav-item"><Link to="/" class="nav-link">About Us</Link></li>
+                                <li class="nav-item"><Link to="/about" class="nav-link">About Us</Link></li>
                                 <li class="nav-item"><Link to="/contact" class="nav-link">Contact</Link></li>
                             </ul>
                         </div>
@@ -147,7 +147,7 @@ export default class home extends React.Component {
                                 <span class="sub-title">About Us</span>
                                 <h2>Enjoy Full-Service Digital Marketing Expertise</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                                <a href="about-us-2.html" class="default-btn">More About Us</a>
+                                <Link to="/about" class="default-btn">More About Us</Link>
                             </div>
                         </div>
                     </div>
@@ -541,11 +541,11 @@ export default class home extends React.Component {
                             <h3>Explore</h3>
 
                             <ul class="footer-links-list">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about-us-1.html">About</a></li>
+                                <li><Link to="/home">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
                                 <li><a href="pricing.html">Pricing</a></li>
                                 <li><a href="portfolio-1.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><Link to="/contact">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
