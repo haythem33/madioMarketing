@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 export default class navbar extends React.Component {
   render() {
     return (
@@ -38,19 +38,19 @@ export default class navbar extends React.Component {
                     </Link>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <Link to="/" class="nav-link">
+                        <Link to="/detail#marketing" class="nav-link">
                           Marketing Digital
                         </Link>
                       </li>
 
                       <li class="nav-item">
-                        <Link to="/" class="nav-link">
+                        <Link to="/detail#web" class="nav-link">
                           Dévelopement Web
                         </Link>
                       </li>
 
                       <li class="nav-item">
-                        <Link to="/" class="nav-link">
+                        <Link to="/detail#mobile" class="nav-link">
                           Application Mobile
                         </Link>
                       </li>

@@ -18,37 +18,37 @@ export default class detail extends React.Component {
           <div class="shape2">
             <img
               src={require("./../../assets/img/shape/shape2.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape3">
             <img
               src={require("./../../assets/img/shape/shape3.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape5">
             <img
               src={require("./../../assets/img/shape/shape5.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape6">
             <img
               src={require("./../../assets/img/shape/shape6.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape7">
             <img
               src={require("./../../assets/img/shape/shape7.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape8">
             <img
               src={require("./../../assets/img/shape/shape8.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="lines">
@@ -61,11 +61,11 @@ export default class detail extends React.Component {
             <div class="container">
                 <div class="overview-box">
                     <div class="overview-content">
-                        <div class="content">
+                        <div id="marketing" class="content">
                             <span class="sub-title">Marketing Digital</span>
                             <h2>Solutions créatives, résultats créatifs</h2>
                             <p>Nous pensons que l'interaction avec la marque est la clé de la communication. De vraies innovations et une expérience client positive sont au cœur d'une communication réussie.</p>
-                            <div class="features-text">
+                            <div  class="features-text">
                                 <h4>Les réseaux sociaux</h4>
                                 <p>Les réseaux sociaux deviennent une tendance incontournable pour les entreprises. Ils manifestent une importance indéniable dans le succès de l’entreprise en matière de prospection de client. Particulièrement pour Facebook, les entreprises ne peuvent pas s’en passer. Bien que cette plateforme soit fréquemment utilisée par les entreprises, peu d’entre elles arrivent à comprendre les avantages procurés par l’un des plus importants réseaux sociaux dans le monde.</p>
                             </div>
@@ -80,7 +80,7 @@ export default class detail extends React.Component {
 
                     <div class="overview-image">
                         <div class="image">
-                        <img src={require("./../../assets/img/services/services-img1.png")} alt="image"/>
+                        <img src={require("./../../assets/img/services/services-img1.png")} alt=""/>
                         </div>
                     </div>
                 </div>
@@ -89,12 +89,12 @@ export default class detail extends React.Component {
                     <div class="overview-image">
                         <div class="image">
                             
-                            <img src={require("./../../assets/img/seo-analysis.png")} alt="image"/>
+                            <img src={require("./../../assets/img/seo-analysis.png")} alt=""/>
                         </div>
                     </div>
                     
                     <div class="overview-content">
-                        <div class="content right-content">
+                        <div id="web" class="content right-content">
                             <span class="sub-title">Développement Web</span>
                             <h2>Résoudre les problèmes, construire des marques</h2>
                             <p>Avoir un site web est de nos jours est un « must » pour les entreprises. En effet, il permet à ces dernières de lancer une immense campagne publicitaire sur internet qui reste fonctionnelle 24 h/24 et 7jours/7 et qui utilise tous les supports possibles : textes, images, sons, vidéos. Ces caractéristiques sont uniques au site web, qui représente le vecteur de communication web le plus efficace et qui présente le meilleur retour sur investissement.</p>
@@ -107,7 +107,7 @@ export default class detail extends React.Component {
                 </div>
                 <div class="overview-box">
                     <div class="overview-content">
-                        <div class="content">
+                        <div id="mobile" class="content">
                             <span class="sub-title">Développement Mobile</span>
                             <h2>L'innovation distingue le leader du suiveur</h2>
                             <p>Les usages mobiles ont évolués et l'application s'impose c omme élément incontournable dans la réponse au besoin des utilisateurs d'avoir accès à n'importe quel moment à n'importe quel contenu. L'application mobile vous permet de développer vos ventes grâce à un nouveau canal de communication fortement plébiscité.</p>
@@ -120,7 +120,7 @@ export default class detail extends React.Component {
 
                     <div class="overview-image">
                         <div class="image">
-                        <img src={require("./../../assets/img/services/services-img2.png")} alt="image"/>
+                        <img src={require("./../../assets/img/services/services-img2.png")} alt=""/>
                         </div>
                     </div>
                 </div>
@@ -131,10 +131,10 @@ export default class detail extends React.Component {
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="feedback-image">
-                            <img src={require("./../../assets/img/madioBack.png")} alt="image"/>
-                            <img src={require("./../../assets/img/services/markIcon.png")} alt="image"/>
-                            <img src={require("./../../assets/img/services/webIcon.png")} alt="image"/>
-                            <img src={require("./../../assets/img/services/iconMobile.png")} alt="image"/>
+                            <img src={require("./../../assets/img/madioBack.png")} alt=""/>
+                            <img src={require("./../../assets/img/services/markIcon.png")} alt=""/>
+                            <img src={require("./../../assets/img/services/webIcon.png")} alt=""/>
+                            <img src={require("./../../assets/img/services/iconMobile.png")} alt=""/>
                         </div>
                     </div>
 
@@ -149,7 +149,7 @@ export default class detail extends React.Component {
 
                                     <div class="client-info">
                                         <div class="d-flex align-items-center">
-                                            <img src={require("./../../assets/img/user1.jpg")} alt="image"/>
+                                            <img src={require("./../../assets/img/user1.jpg")} alt=""/>
                                             <div class="title">
                                                 <h3>John Smith</h3>
                                                 <span>Python Developer</span>
@@ -163,7 +163,7 @@ export default class detail extends React.Component {
 
                                     <div class="client-info">
                                         <div class="d-flex align-items-center">
-                                            <img src={require("./../../assets/img/user2.jpg")} alt="image"/>
+                                            <img src={require("./../../assets/img/user2.jpg")} alt=""/>
                                             <div class="title">
                                                 <h3>Sarah Taylor</h3>
                                                 <span>Web Developer</span>
@@ -177,7 +177,7 @@ export default class detail extends React.Component {
 
                                     <div class="client-info">
                                         <div class="d-flex align-items-center">
-                                            <img src={require("./../../assets/img/user3.jpg")} alt="image"/>
+                                            <img src={require("./../../assets/img/user3.jpg")} alt=""/>
                                             <div class="title">
                                                 <h3>James Anderson</h3>
                                                 <span>Web Designer</span>
@@ -191,14 +191,14 @@ export default class detail extends React.Component {
                 </div>
             </div>
 
-            <div class="shape16"><img src={require("./../../assets/img/shape/shape16.png")} alt="image"/></div>
+            <div class="shape16"><img src={require("./../../assets/img/shape/shape16.png")} alt=""/></div>
         </section>
         <section class="project-start-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="project-start-image">
-                            <img src={require("./../../assets/img/project-start1.png")} alt="image"/>
+                            <img src={require("./../../assets/img/project-start1.png")} alt=""/>
                         </div>
                     </div>
 
@@ -206,18 +206,18 @@ export default class detail extends React.Component {
                         <div class="project-start-content">
                             <h2>Nous aimons démarrer votre projet avec nous</h2>
                             <p>En quoi pouvons-nous vous aider ?</p>
-                            <Link to="/contact" class="default-btn">Commancer</Link>
+                            <Link to="/contact#begin" class="default-btn">Commancer</Link>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="shape2"><img src={require("./../../assets/img/shape/shape2.png")} alt="image"/></div>
-            <div class="shape3"><img src={require("./../../assets/img/shape/shape3.png")} alt="image"/></div>
-            <div class="shape5"><img src={require("./../../assets/img/shape/shape5.png")} alt="image"/></div>
-            <div class="shape6"><img src={require("./../../assets/img/shape/shape6.png")} alt="image"/></div>
-            <div class="shape7"><img src={require("./../../assets/img/shape/shape7.png")} alt="image"/></div>
-            <div class="shape13"><img src={require("./../../assets/img/shape/shape13.png")} alt="image"/></div>
+            <div class="shape2"><img src={require("./../../assets/img/shape/shape2.png")} alt=""/></div>
+            <div class="shape3"><img src={require("./../../assets/img/shape/shape3.png")} alt=""/></div>
+            <div class="shape5"><img src={require("./../../assets/img/shape/shape5.png")} alt=""/></div>
+            <div class="shape6"><img src={require("./../../assets/img/shape/shape6.png")} alt=""/></div>
+            <div class="shape7"><img src={require("./../../assets/img/shape/shape7.png")} alt=""/></div>
+            <div class="shape13"><img src={require("./../../assets/img/shape/shape13.png")} alt=""/></div>
         </section>
         <Footer />
       </div>

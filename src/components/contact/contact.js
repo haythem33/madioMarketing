@@ -10,44 +10,44 @@ export default class contact extends React.Component {
         <section class="page-title-area">
           <div class="container">
             <div class="page-title-content">
-              <h1>Contact Us</h1>
+              <h1>Contactez Nous</h1>
             </div>
           </div>
 
           <div class="shape2">
             <img
               src={require("./../../assets/img/shape/shape2.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape3">
             <img
               src={require("./../../assets/img/shape/shape3.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape5">
             <img
               src={require("./../../assets/img/shape/shape5.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape6">
             <img
               src={require("./../../assets/img/shape/shape6.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape7">
             <img
               src={require("./../../assets/img/shape/shape7.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="shape8">
             <img
               src={require("./../../assets/img/shape/shape8.png")}
-              alt="image"
+              alt=""
             />
           </div>
           <div class="lines">
@@ -67,8 +67,8 @@ export default class contact extends React.Component {
                   <div class="icon">
                     <i class="bx bx-map"></i>
                   </div>
-                  <h3>Our Address</h3>
-                  <p>175 5th Ave, New York, NY 10010, United States</p>
+                  <h3>Notre Adresse</h3>
+                  <p>Rue des jardin ,Chotrana 2 ,Soukra , Ariana</p>
                 </div>
               </div>
 
@@ -82,10 +82,10 @@ export default class contact extends React.Component {
                   </div>
                   <h3>Contact</h3>
                   <p>
-                    Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a>
+                    Mobile: <a href="tel:+44457895789">(+216) 21056602 - 28403760</a>
                   </p>
                   <p>
-                    E-mail: <a href="mailto:hello@dibiz.com">hello@dibiz.com</a>
+                    E-mail: <a href="mailto:madiomarketing@gmail.com">madiomarketing@gmail.com</a>
                   </p>
                 </div>
               </div>
@@ -98,9 +98,9 @@ export default class contact extends React.Component {
                   <div class="icon">
                     <i class="bx bx-time-five"></i>
                   </div>
-                  <h3>Hours of Operation</h3>
-                  <p>Monday - Friday: 09:00 - 20:00</p>
-                  <p>Sunday & Saturday: 10:30 - 22:00</p>
+                  <h3>Horaire</h3>
+                  <p>Lundi - Samedi: 09:00 - 22:00</p>
+                  <p>Dimanche: 10:30 - 20:00</p>
                 </div>
               </div>
             </div>
@@ -109,22 +109,20 @@ export default class contact extends React.Component {
         <section class="contact-area pb-100">
           <div class="container">
             <div class="section-title">
-              <span class="sub-title">Get in Touch</span>
+              <span id="begin" class="sub-title">Entrer en contact</span>
               <h2>
-                Ready to Get Started?<span class="overlay"></span>
+              Prêtes à commencer?<span class="overlay"></span>
               </h2>
               <p>
-                Your email address will not be published. Required fields are
-                marked *
+              Votre adresse email ne sera pas publiée.
               </p>
             </div>
-
             <div class="row">
               <div class="col-lg-6 col-md-12">
                 <div class="contact-image" data-tilt>
                   <img
                     src={require("./../../assets/img/contact.png")}
-                    alt="image"
+                    alt=""
                   />
                 </div>
               </div>

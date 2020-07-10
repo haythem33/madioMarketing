@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default class footer extends React.Component {
   render() {
@@ -16,30 +16,18 @@ export default class footer extends React.Component {
                   />
                 </a>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-                  suspendisse ultrices gravida.
+                  Suivez nous sur les réseaux sociaux
                 </p>
 
                 <ul class="social-link">
                   <li>
-                    <a href="#" class="d-block" target="_blank">
+                    <a href="https://www.facebook.com/madiomarketing/" class="d-block" rel="noopener noreferrer" target="_blank">
                       <i class="bx bxl-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="d-block" target="_blank">
-                      <i class="bx bxl-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="d-block" target="_blank">
+                    <a href="https://www.instagram.com/madiomarketing/" class="d-block" rel="noopener noreferrer" target="_blank">
                       <i class="bx bxl-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="d-block" target="_blank">
-                      <i class="bx bxl-linkedin"></i>
                     </a>
                   </li>
                 </ul>
@@ -52,68 +40,35 @@ export default class footer extends React.Component {
 
                 <ul class="footer-links-list">
                   <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/home#homeBegin">Acceuil</Link>
                   </li>
                   <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about#text">à propos de nous</Link>
                   </li>
                   <li>
-                    <a href="pricing.html">Pricing</a>
+                    <Link to="/pricing#priceBegin">Pricing</Link>
                   </li>
                   <li>
-                    <a href="portfolio-1.html">Portfolio</a>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact#begin">Contact</Link>
                   </li>
                 </ul>
               </div>
             </div>
-
-            <div class="col-lg-2 col-md-6 col-sm-6">
-              <div class="single-footer-widget pl-2">
-                <h3>Resources</h3>
-
-                <ul class="footer-links-list">
-                  <li>
-                    <a href="team-1.html">Team</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact</a>
-                  </li>
-                  <li>
-                    <a href="services-1.html">Services</a>
-                  </li>
-                  <li>
-                    <a href="faq.html">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="blog-1.html">Blog</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="single-footer-widget">
-                <h3>Address</h3>
+                <h3>Addresse</h3>
 
                 <ul class="footer-contact-info">
                   <li>
-                    <i class="bx bx-map"></i>175 5th Ave Premium Area, New York,
-                    NY 10010, United States
+                    <i class="bx bx-map"></i>Rue des jardin ,Chotrana 2 ,Soukra , Ariana
                   </li>
                   <li>
                     <i class="bx bx-phone-call"></i>
-                    <a href="tel:+11234567890">+1 (123) 456 7890</a>
+                    <a href="tel:+11234567890">(+216) 21056602 - 28403760</a>
                   </li>
                   <li>
                     <i class="bx bx-envelope"></i>
-                    <a href="mailto:hello@dibiz.com">hello@dibiz.com</a>
-                  </li>
-                  <li>
-                    <i class="bx bxs-inbox"></i>
-                    <a href="tel:+557854578964">+55 785 4578964</a>
+                    <a href="mailto:madiomarketing@gmail.com">madiomarketing@gmail.com</a>
                   </li>
                 </ul>
               </div>
@@ -126,21 +81,10 @@ export default class footer extends React.Component {
                 <p>
                   <i class="bx bx-copyright"></i>2020 <strong>Dibiz</strong> is
                   Proudly Powered by{" "}
-                  <a target="_blank" href="https://envytheme.com/">
-                    EnvyTheme
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/madiomarketing/">
+                    madioMarketing
                   </a>
                 </p>
-              </div>
-
-              <div class="col-lg-6 col-md-6">
-                <ul>
-                  <li>
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="terms-of-service.html">Terms & Conditions</a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -149,7 +93,7 @@ export default class footer extends React.Component {
         <div class="shape16">
           <img
             src={require("./../../assets/img/shape/shape16.png")}
-            alt="image"
+            alt="shape"
           />
         </div>
       </footer>
