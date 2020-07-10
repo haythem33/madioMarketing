@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/madioMarketing/static/css/main.30032ab8.chunk.css",
+    "main.js": "/madioMarketing/static/js/main.26dd8eb4.chunk.js",
+    "main.js.map": "/madioMarketing/static/js/main.26dd8eb4.chunk.js.map",
+    "runtime-main.js": "/madioMarketing/static/js/runtime-main.1fb6733f.js",
+    "runtime-main.js.map": "/madioMarketing/static/js/runtime-main.1fb6733f.js.map",
+    "static/js/2.7f79ee86.chunk.js": "/madioMarketing/static/js/2.7f79ee86.chunk.js",
+    "static/js/2.7f79ee86.chunk.js.map": "/madioMarketing/static/js/2.7f79ee86.chunk.js.map",
+    "index.html": "/madioMarketing/index.html",
+    "precache-manifest.80dd90ab21e860aed4e7dc1af5d82653.js": "/madioMarketing/precache-manifest.80dd90ab21e860aed4e7dc1af5d82653.js",
+    "service-worker.js": "/madioMarketing/service-worker.js",
+    "static/css/main.30032ab8.chunk.css.map": "/madioMarketing/static/css/main.30032ab8.chunk.css.map",
+    "static/js/2.7f79ee86.chunk.js.LICENSE.txt": "/madioMarketing/static/js/2.7f79ee86.chunk.js.LICENSE.txt",
+    "static/media/solution.css": "/madioMarketing/static/media/testimonials-img.e32a4694.jpg",
+    "static/media/about-img2.png": "/madioMarketing/static/media/about-img2.b93d5a67.png",
+    "static/media/contact.png": "/madioMarketing/static/media/contact.c0548c36.png",
+    "static/media/history-img1.jpg": "/madioMarketing/static/media/history-img1.f52ab14b.jpg",
+    "static/media/madio.png": "/madioMarketing/static/media/madio.7b40ccfd.png",
+    "static/media/madioBack.png": "/madioMarketing/static/media/madioBack.3c474dd8.png",
+    "static/media/project-start1.png": "/madioMarketing/static/media/project-start1.f0146a34.png",
+    "static/media/seo-analysis.png": "/madioMarketing/static/media/seo-analysis.0bf676d6.png",
+    "static/media/services-img1.png": "/madioMarketing/static/media/services-img1.c75f9907.png",
+    "static/media/services-img2.png": "/madioMarketing/static/media/services-img2.fda6dc6c.png",
+    "static/media/shape14.png": "/madioMarketing/static/media/shape14.01bd0b8b.png",
+    "static/media/shape16.png": "/madioMarketing/static/media/shape16.7b165020.png",
+    "static/media/test1.jpg": "/madioMarketing/static/media/test1.9a14dc82.jpg",
+    "static/media/user1.jpg": "/madioMarketing/static/media/user1.583aae6e.jpg",
+    "static/media/user2.jpg": "/madioMarketing/static/media/user2.181890da.jpg",
+    "static/media/user3.jpg": "/madioMarketing/static/media/user3.d89e5759.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fb6733f.js",
+    "static/js/2.7f79ee86.chunk.js",
+    "static/css/main.30032ab8.chunk.css",
+    "static/js/main.26dd8eb4.chunk.js"
+  ]
+}
