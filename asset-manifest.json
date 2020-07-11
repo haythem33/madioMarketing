@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/madioMarketing/static/css/main.30032ab8.chunk.css",
-    "main.js": "/madioMarketing/static/js/main.fad94ee4.chunk.js",
-    "main.js.map": "/madioMarketing/static/js/main.fad94ee4.chunk.js.map",
+    "main.js": "/madioMarketing/static/js/main.c38efd9d.chunk.js",
+    "main.js.map": "/madioMarketing/static/js/main.c38efd9d.chunk.js.map",
     "runtime-main.js": "/madioMarketing/static/js/runtime-main.1fb6733f.js",
     "runtime-main.js.map": "/madioMarketing/static/js/runtime-main.1fb6733f.js.map",
     "static/js/2.7f79ee86.chunk.js": "/madioMarketing/static/js/2.7f79ee86.chunk.js",
     "static/js/2.7f79ee86.chunk.js.map": "/madioMarketing/static/js/2.7f79ee86.chunk.js.map",
     "index.html": "/madioMarketing/index.html",
-    "precache-manifest.eabdd81ef0f1103b3b3a5883ae576cc9.js": "/madioMarketing/precache-manifest.eabdd81ef0f1103b3b3a5883ae576cc9.js",
+    "precache-manifest.3b23d71fc2dc1c94c73ba36a5afa34f8.js": "/madioMarketing/precache-manifest.3b23d71fc2dc1c94c73ba36a5afa34f8.js",
     "service-worker.js": "/madioMarketing/service-worker.js",
     "static/css/main.30032ab8.chunk.css.map": "/madioMarketing/static/css/main.30032ab8.chunk.css.map",
     "static/js/2.7f79ee86.chunk.js.LICENSE.txt": "/madioMarketing/static/js/2.7f79ee86.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.1fb6733f.js",
     "static/js/2.7f79ee86.chunk.js",
     "static/css/main.30032ab8.chunk.css",
-    "static/js/main.fad94ee4.chunk.js"
+    "static/js/main.c38efd9d.chunk.js"
   ]
 }
