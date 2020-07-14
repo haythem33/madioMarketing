@@ -13,6 +13,11 @@ class signInForm extends Component {
       error: null,
     };
   }
+  componentDidMount() {
+    if(this.props.firebase.getUserConnected() !== null) {
+      this.props.history.push("/dashboard");
+    }
+  }
   onSubmit = event => {
       const {email , password} = this.state;
       this.props.firebase.ConnectUserWithEmail(email,password).then(() => {
@@ -67,7 +72,7 @@ class signInForm extends Component {
                   </div>
                   <div class="row align-items-center">
                     <div class="col-lg-12 col-md-6 col-sm-6 lost-your-password-wrap">
-                      <a href="#" class="lost-your-password">
+                      <a href="dqs" class="lost-your-password">
                         Lost your password?
                       </a>
                     </div>

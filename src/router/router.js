@@ -6,6 +6,7 @@ import Pricing from "../components/pricing/pricing";
 import {HashRouter , Route, Switch } from 'react-router-dom'
 import detail from "../components/solution/detail";
 import signIn from "../components/admin/signIn";
+import dashboard from "../components/admin/dashboard";
 export default class router extends React.Component {
     render() {
         return (
@@ -18,6 +19,7 @@ export default class router extends React.Component {
              <Route path="/pricing" component={Pricing} />
              <Route path="/detail" component={detail} />
              <Route path={["/haythem", "/dali" , "/hama"]} component={signIn}/>
+             <Route path="/dashboard" component={dashboard}/>
              </Switch>
          </HashRouter>
         )

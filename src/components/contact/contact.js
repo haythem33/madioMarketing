@@ -1,9 +1,36 @@
-import React from "react";
+import React, { Component } from "react";
 import Navbar from "./../navbar/navbar";
 import Footer from "./../footer/footer";
 import "./contact.css";
-export default class contact extends React.Component {
+import { compose } from "recompose";
+import { withFirebase } from "../firebase";
+class contactForm extends Component {
+  state = {
+    name : "",
+    email : "",
+    phone : "",
+    message : ""
+  }
+  onSubmit = event => {
+    this.props.firebase.addMessage(this.state).then(() => {
+      this.setState({
+        name : "",
+        email : "",
+        phone : "",
+        message : ""
+      })
+      alert("the message was sent")
+    }).catch(error => {
+      alert(error);
+    })
+    event.preventDefault();
+  }
+  onChange = event => {
+    this.setState({ [event.target.name]: event.target.value });
+  }
   render() {
+    const {name,email,phone,message} = this.state;
+    const isInvalid = name === "" || email === "" || phone === "" || message === "";
     return (
       <div>
         <Navbar/>
@@ -139,6 +166,8 @@ export default class contact extends React.Component {
                             class="form-control"
                             id="name"
                             required
+                            value={name}
+                            onChange={this.onChange}
                             data-error="Please enter your name"
                             placeholder="Your name"
                           />
@@ -154,6 +183,8 @@ export default class contact extends React.Component {
                             class="form-control"
                             id="email"
                             required
+                            value={email}
+                            onChange={this.onChange}
                             data-error="Please enter your email"
                             placeholder="Your email address"
                           />
@@ -165,9 +196,11 @@ export default class contact extends React.Component {
                         <div class="form-group">
                           <input
                             type="text"
-                            name="phone_number"
+                            name="phone"
+                            value={phone}
                             class="form-control"
                             id="phone_number"
+                            onChange={this.onChange}
                             required
                             data-error="Please enter your phone number"
                             placeholder="Your phone number"
@@ -181,6 +214,8 @@ export default class contact extends React.Component {
                           <textarea
                             name="message"
                             id="message"
+                            value={message}
+                            onChange={this.onChange}
                             class="form-control"
                             cols="30"
                             rows="6"
@@ -191,9 +226,8 @@ export default class contact extends React.Component {
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
-
                       <div class="col-lg-12 col-md-12">
-                        <button type="submit" class="default-btn">
+                        <button disabled={isInvalid} onClick={this.onSubmit} type="submit" class="default-btn">
                           Send Message
                         </button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -211,3 +245,8 @@ export default class contact extends React.Component {
     );
   }
 }
+const contact = compose(
+  withFirebase
+)(contactForm)
+
+export default contact;
