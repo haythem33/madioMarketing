@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/madioMarketing/precache-manifest.efb0c1a254b0df1ed517cd34ae04f9d8.js"
+  "/madioMarketing/precache-manifest.d2691ef33fcc502ca4517128a7d875d6.js"
 );
 
 self.addEventListener('message', (event) => {
