@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f62f2a67a1580b641d972446324fb27d",
+    "revision": "65b43804349bf21a68d7fcadb6b4b868",
     "url": "/madioMarketing/index.html"
   },
   {
-    "revision": "518a096ee247bea9f7f6",
-    "url": "/madioMarketing/static/css/main.30032ab8.chunk.css"
+    "revision": "ad5445f05c956ae16d86",
+    "url": "/madioMarketing/static/css/main.46f16004.chunk.css"
   },
   {
-    "revision": "ab339fb31bdb6d89c3ff",
-    "url": "/madioMarketing/static/js/2.7f79ee86.chunk.js"
+    "revision": "8a795297c0b4c4d7a896",
+    "url": "/madioMarketing/static/js/2.24b0d6ae.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/madioMarketing/static/js/2.7f79ee86.chunk.js.LICENSE.txt"
+    "revision": "4224b32d50aca7d0b4f248bf0384ed4f",
+    "url": "/madioMarketing/static/js/2.24b0d6ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "518a096ee247bea9f7f6",
-    "url": "/madioMarketing/static/js/main.3d70d857.chunk.js"
+    "revision": "ad5445f05c956ae16d86",
+    "url": "/madioMarketing/static/js/main.1cae020b.chunk.js"
   },
   {
     "revision": "4821871e3411910b4643",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b93d5a67c6aa035408946e2afa5720f4",
     "url": "/madioMarketing/static/media/about-img2.b93d5a67.png"
+  },
+  {
+    "revision": "9888dbbed541e7e2e58a23e354e81fbc",
+    "url": "/madioMarketing/static/media/back.9888dbbe.jpeg"
   },
   {
     "revision": "248f1b3836ce2cc6a82e14fee48854e8",
@@ -114,10 +118,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f52ab14b085fdc2ffb053ab221728a10",
     "url": "/madioMarketing/static/media/history-img1.f52ab14b.jpg"
-  },
-  {
-    "revision": "7b40ccfdc0aa84d4143b7946b2186666",
-    "url": "/madioMarketing/static/media/madio.7b40ccfd.png"
   },
   {
     "revision": "3c474dd8d3f336424d804d074d4310f6",
