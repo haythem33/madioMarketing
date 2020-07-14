@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fef223bfcef6cc32f5e21745d5a48386",
+    "revision": "d457cacbf16c2a4be6d65fbf78a317a9",
     "url": "/madioMarketing/index.html"
   },
   {
-    "revision": "ad5445f05c956ae16d86",
+    "revision": "a09218c71dc29d5fe0b4",
     "url": "/madioMarketing/static/css/main.46f16004.chunk.css"
   },
   {
-    "revision": "8a795297c0b4c4d7a896",
-    "url": "/madioMarketing/static/js/2.24b0d6ae.chunk.js"
+    "revision": "e832c4055c152a47972f",
+    "url": "/madioMarketing/static/js/2.f383a334.chunk.js"
   },
   {
     "revision": "4224b32d50aca7d0b4f248bf0384ed4f",
-    "url": "/madioMarketing/static/js/2.24b0d6ae.chunk.js.LICENSE.txt"
+    "url": "/madioMarketing/static/js/2.f383a334.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad5445f05c956ae16d86",
-    "url": "/madioMarketing/static/js/main.1cae020b.chunk.js"
+    "revision": "a09218c71dc29d5fe0b4",
+    "url": "/madioMarketing/static/js/main.e0090178.chunk.js"
   },
   {
     "revision": "4821871e3411910b4643",
