@@ -3,10 +3,19 @@ import { HashLink as Link } from 'react-router-hash-link';
 import "./home.css"
 import Navbar from "./../navbar/navbar";
 import Footer from "./../footer/footer";
+import { Helmet } from "react-helmet";
 export default class home extends React.Component {
     render() {
         return(
           <div>
+            <Helmet>
+               <meta charSet="utf-8"/>
+               <title>Acceuil</title>
+               <meta name="title" content="agence marketing digital , tunisie"/>
+               <meta name="description" content="l'agence de marketing la plus innovante en tunisie 
+                avec les prix les plus bas on assure toutes les solution pour l'evolution de votre entreprise 
+                a partir de la création et le sponsoring de votre page Facebook ou instagram jusqu'a la création et le référencement de votre site internet ou application mobile , on vous accompagne pendant la promotion de votre entreprise ou idée "/>
+            </Helmet>
             <Navbar/>
             <section class="home-wrapper-area">
             <div id="homeBegin" class="container-fluid">

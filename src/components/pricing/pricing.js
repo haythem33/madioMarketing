@@ -3,10 +3,18 @@ import "./pricing.css";
 import Navbar from "./../navbar/navbar";
 import Footer from "./../footer/footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 export default class pricing extends React.Component {
   render() {
     return (
       <div>
+          <Helmet>
+              <meta charSet="utf-8" />
+              <title>Tarifs</title>
+              <meta name="title" content="agence marketing digital , tunisie"/>
+              <meta name="description" content="on assure des services de qualité avec des prix concurrentiels ,
+              on propose des packs ou vous pouvez méme déterminer votre budget"/>
+          </Helmet>
         <Navbar/>
         <section class="page-title-area">
             <div class="container">

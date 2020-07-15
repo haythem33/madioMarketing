@@ -3,10 +3,17 @@ import "./solution.css";
 import Navbar from "./../navbar/navbar";
 import Footer from "./../footer/footer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 export default class detail extends React.Component {
   render() {
     return (
       <div>
+          <Helmet>
+              <meta charSet="utf-8"/>
+              <title>services</title>
+              <meta name="title" content="agence marketing digital , tunisie"/>
+              <meta name="description" content="on propose des services divers, on assure la création et le sponsoring des pages Facebook et instagram ainsi que la création des sites web et leur référencement , et on crée aussi des applications mobiles personnalisées , notre équipe qualifée prend en charge la mise en place des solutions créatives "/>
+          </Helmet>
         <Navbar />
         <section class="page-title-area">
           <div class="container">

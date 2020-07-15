@@ -4,6 +4,7 @@ import Footer from "./../footer/footer";
 import "./contact.css";
 import { compose } from "recompose";
 import { withFirebase } from "../firebase";
+import { Helmet } from "react-helmet";
 class contactForm extends Component {
   state = {
     name : "",
@@ -33,6 +34,13 @@ class contactForm extends Component {
     const isInvalid = name === "" || email === "" || phone === "" || message === "";
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8"/>
+          <title>contactez nous</title>
+          <meta name="title" content="agence marketing digital , tunisie"/>
+          <meta name="description" content="contactez nous par Facebook Instagram Email ou par téléphone 
+            où à partir du site internet"/>
+        </Helmet>
         <Navbar/>
         <section class="page-title-area">
           <div class="container">

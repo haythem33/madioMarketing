@@ -2,10 +2,21 @@ import React from "react";
 import "./about.css";
 import Navbar from "./../navbar/navbar";
 import Footer from "./../footer/footer";
+import {Helmet} from "react-helmet";
 export default class about extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+            <meta charSet="utf-8"/>
+            <title>à propos de nous</title>
+            <meta name="title" content="agence marketing digital , tunisie"/>
+            <meta name="description" content="agence de marketing digital installée en tunisie , 
+            mais nous travaillons avec des clients du monde entier,
+            notre objectif c'est de faire connaitre 
+            les petites et les nouvelles entreprises 
+            ainsi que les idées innovantes,créativité innovation c'est notre marque"/>
+        </Helmet>
         <Navbar/>
         <section class="page-title-area page-title-style-two">
             <div class="container">
