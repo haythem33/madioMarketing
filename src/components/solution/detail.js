@@ -206,7 +206,7 @@ export default class detail extends React.Component {
                         <div class="project-start-content">
                             <h2>Nous aimons démarrer votre projet avec nous</h2>
                             <p>En quoi pouvons-nous vous aider ?</p>
-                            <Link to="/contact#begin" class="default-btn">Commancer</Link>
+                            <Link to="/contact#begin" class="default-btn">Commencer</Link>
                         </div>
                     </div>
                 </div>
