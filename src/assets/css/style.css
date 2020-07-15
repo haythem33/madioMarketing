@@ -8079,19 +8079,6 @@ Widget Sidebar CSS
   background-repeat: no-repeat;
   background-position: center center !important;
 }
-
-.widget-area .widget_dibiz_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../img/blog/blog-img8.jpg);
-}
-
-.widget-area .widget_dibiz_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../img/blog/blog-img7.jpg);
-}
-
-.widget-area .widget_dibiz_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../img/blog/blog-img6.jpg);
-}
-
 .widget-area .widget_dibiz_posts_thumb .item .thumb::before, .widget-area .widget_dibiz_posts_thumb .item .thumb::after {
   -webkit-transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
   transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
