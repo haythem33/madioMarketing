@@ -7,7 +7,7 @@ require("babel-register")({
   
   function generateSitemap() {
       return (
-        new Sitemap(router).build("https://www.madio-marketing.com").save("./public/sitemap.xml")
+        new Sitemap(router).build("https://www.madio-marketing.com/#").save("./public/sitemap.xml")
       );
   }
   
