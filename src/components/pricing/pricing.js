@@ -8,7 +8,7 @@ export default class pricing extends React.Component {
   render() {
     return (
       <div>
-          <Helmet>
+        <Helmet>
               <meta charSet="utf-8" />
               <title>Tarifs</title>
               <meta name="title" content="agence marketing digital , tunisie"/>
